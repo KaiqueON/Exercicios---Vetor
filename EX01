@@ -1,0 +1,15 @@
+Exercicios - Vetor - Numero Impar
+
+ int[] v = new int[10];
+
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("Digite um numero: ");
+                v[i] = int.Parse(Console.ReadLine());
+            }
+            for (int i = 0; i<10; i++)
+            {
+                if (v[i] % 2 != 0)
+                {
+                    Console.WriteLine("{0} é impar", v[i]);
+                }
