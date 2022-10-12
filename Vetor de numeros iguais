@@ -1,0 +1,17 @@
+int[] vetor = new int[10];
+            int igual;
+
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("Digite os valores: ");
+                vetor[i] = int.Parse(Console.ReadLine());
+            }
+            for (int i = 0; i < 10; i++)
+            {
+                for (int k = i + 1; k < 10; k++)
+                {
+                    if (vetor[k] == vetor[i])
+                    
+                    {
+                        igual = vetor[i];
+                        Console.WriteLine("valores iguais: " + igual);
